@@ -308,7 +308,7 @@ nav ul li a:hover{
 }
 @media screen and (max-width:922px) {
     body{
-        background-color:orangered;
+        background-color: #fff;
     }
     home{
         padding-top: 100px;
