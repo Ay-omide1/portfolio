@@ -193,6 +193,11 @@ nav ul li a:hover{
     margin-top: 30px;
     padding:20px;
     box-sizing: border-box;
+    box-shadow:2px 4px 8px gray;
+    transition: 600ms ease-in;
+}
+.project-cards:hover{
+    box-shadow: 3px 6px 24px gray;
 }
 .project-cards>img{
     width:100%;
@@ -325,6 +330,31 @@ nav ul li a:hover{
         background-color: black;
         border-radius: 8px;
          }
+         
+         #about{
+            width: 900px;
+            }
+            .download-btn{
+                background-color: orangered;
+            }
+            .project-cards > img{
+                width: 300px;
+                object-position: top;
+                padding: 20px;
+                
+            }
+            .projects-wrapper{
+                justify-content: space-between;
+                padding:100px; 
+                padding: 0 100px;
+                gap: 7em;
+            }
+            #project{
+                width: 900px;
+            }
+
+
+
 }
 
 .back-to-top{
