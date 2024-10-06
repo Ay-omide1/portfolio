@@ -23,8 +23,9 @@ body{
 .profile-card > img{
     object-fit: cover;
     border-radius: 50%;
-    object-position: top;
+    object-position:bottom;
     margin-top: 40px;
+    width: 100px;
 }
 .profile-card> h4{
     color: hsl(75, 94%, 57%);  
