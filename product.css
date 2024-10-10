@@ -1,0 +1,54 @@
+body{
+    background-color:hsl(30, 38%, 92%);
+}
+.product{
+    
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding: 200px;
+}
+main{
+    display: flex;
+}
+.Perfume>img{
+    width: 100%;
+}
+.second{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+.second>h3{
+    color: rgb(138, 124, 124);
+}
+.second>h1{
+    color: hsl(212, 21%, 14%);
+}
+.second>p{
+    color: rgb(158, 158, 158);
+}
+.fish>h1{
+color: green;
+
+}
+.fish>h6{
+    color:hsl(210, 4%, 68%)
+    ;
+    text-decoration: line-through;
+    font-size: 19px;
+}
+.fish{
+    display: flex;
+    gap: 2em;
+    margin: auto;
+    
+}
+.second button{
+    width: 80%;
+    background-color: green;
+    color: white;
+    border-radius: 8px ;
+    padding:15px;
+    border:2px solid green;
+}
